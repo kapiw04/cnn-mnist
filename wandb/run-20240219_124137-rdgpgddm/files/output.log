@@ -1,0 +1,11 @@
+
+
+Epoch: 1/10, 1500/1500, ETA: 01m 03s
+Epoch 1/10, Loss: 0.3685, Accuracy: 0.8783
+
+Epoch: 2/10, 1500/1500, ETA: 01m 32s
+Epoch 2/10, Loss: 0.0853, Accuracy: 0.9747
+
+Epoch: 3/10, 1500/1500, ETA: 01m 50s
+Epoch 3/10, Loss: 0.0665, Accuracy: 0.9800
+
