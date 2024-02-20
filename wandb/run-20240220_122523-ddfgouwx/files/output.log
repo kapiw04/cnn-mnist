@@ -1,0 +1,52 @@
+
+Epoch: 1/15, 1500/1500, ETA: 01m 36s
+Epoch 1/15, Loss: 0.4049, Accuracy: 0.8680
+Validation Loss: 0.1336, Validation Accuracy: 0.9589
+
+Epoch: 2/15, 1500/1500, ETA: 02m 25s
+Epoch 2/15, Loss: 0.1233, Accuracy: 0.9620
+Validation Loss: 0.0741, Validation Accuracy: 0.9766
+Epoch: 3/15, 1500/1500, ETA: 03m 02s
+Epoch 3/15, Loss: 0.1078, Accuracy: 0.9663
+Validation Loss: 0.0837, Validation Accuracy: 0.9747
+
+Epoch: 4/15, 1500/1500, ETA: 03m 33s
+Epoch 4/15, Loss: 0.0986, Accuracy: 0.9686
+Validation Loss: 0.0682, Validation Accuracy: 0.9802
+Epoch: 5/15, 1500/1500, ETA: 03m 54s
+Epoch 5/15, Loss: 0.0929, Accuracy: 0.9702
+Validation Loss: 0.0979, Validation Accuracy: 0.9701
+Epoch: 6/15, 1500/1500, ETA: 04m 07s
+Epoch 6/15, Loss: 0.0888, Accuracy: 0.9724
+Validation Loss: 0.0606, Validation Accuracy: 0.9810
+Epoch: 7/15, 1500/1500, ETA: 04m 12s
+Epoch 7/15, Loss: 0.0870, Accuracy: 0.9723
+Validation Loss: 0.0642, Validation Accuracy: 0.9813
+Epoch: 8/15, 1500/1500, ETA: 04m 09s
+Epoch 8/15, Loss: 0.0823, Accuracy: 0.9749
+Validation Loss: 0.0660, Validation Accuracy: 0.9799
+Epoch: 9/15, 1500/1500, ETA: 04m 00s
+Epoch 9/15, Loss: 0.0794, Accuracy: 0.9745
+Validation Loss: 0.0611, Validation Accuracy: 0.9822
+Epoch: 10/15, 1500/1500, ETA: 03m 42s
+Epoch 10/15, Loss: 0.0764, Accuracy: 0.9756
+Validation Loss: 0.0648, Validation Accuracy: 0.9785
+
+Epoch: 11/15, 1500/1500, ETA: 03m 14s
+Epoch 11/15, Loss: 0.0783, Accuracy: 0.9754
+Validation Loss: 0.0626, Validation Accuracy: 0.9815
+Epoch: 12/15, 1500/1500, ETA: 02m 38s
+Epoch 12/15, Loss: 0.0765, Accuracy: 0.9754
+Validation Loss: 0.0600, Validation Accuracy: 0.9822
+
+Epoch: 13/15, 1500/1500, ETA: 01m 54s
+Epoch 13/15, Loss: 0.0754, Accuracy: 0.9757
+Validation Loss: 0.0549, Validation Accuracy: 0.9842
+
+Epoch: 14/15, 1500/1500, ETA: 01m 01s
+Epoch 14/15, Loss: 0.0768, Accuracy: 0.9757
+Validation Loss: 0.0582, Validation Accuracy: 0.9826
+
+Epoch: 15/15, 1500/1500, ETA: 00m 00s
+Epoch 15/15, Loss: 0.0729, Accuracy: 0.9770
+Validation Loss: 0.0552, Validation Accuracy: 0.9837

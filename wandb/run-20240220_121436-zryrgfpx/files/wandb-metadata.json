@@ -1,0 +1,108 @@
+{
+    "os": "Linux-6.5.13-7-MANJARO-x86_64-with-glibc2.38",
+    "python": "3.11.6",
+    "heartbeatAt": "2024-02-20T11:14:37.443350",
+    "startedAt": "2024-02-20T11:14:36.413074",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/kapi/Programming/Internship/cnn-mnist/cnn.py",
+    "codePathLocal": "cnn.py",
+    "codePath": "cnn.py",
+    "git": {
+        "remote": "https://github.com/kapiw04/cnn-mnist.git",
+        "commit": "627df76569eba07fcbb1603b0a8de0d126fdc2bc"
+    },
+    "email": "wojtowicz.kacper@gmail.com",
+    "root": "/home/kapi/Programming/Internship/cnn-mnist",
+    "host": "medion",
+    "username": "kapi",
+    "executable": "/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2983.5187499999997,
+        "min": 800.0,
+        "max": 4600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3999.148,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3998.97,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3806.978,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3926.267,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3999.577,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3998.827,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3999.072,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3910.455,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4600.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 85.18550491333008,
+            "used": 43.629547119140625
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1060 6GB",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1060 6GB",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 7.644626617431641
+    }
+}

@@ -1,0 +1,49 @@
+
+
+Epoch: 1/15, 1500/1500, ETA: 01m 42s
+Epoch 1/15, Loss: 0.4629, Accuracy: 0.8468
+
+Epoch: 2/15, 1500/1500, ETA: 02m 39s
+Epoch 2/15, Loss: 0.1951, Accuracy: 0.9386
+
+Epoch: 3/15, 1500/1500, ETA: 03m 25s
+Epoch 3/15, Loss: 0.1639, Accuracy: 0.9491
+
+
+Epoch: 4/15, 1500/1500, ETA: 04m 12s
+Epoch 4/15, Loss: 0.1460, Accuracy: 0.9566
+
+Epoch: 5/15, 1500/1500, ETA: 04m 45s
+Epoch 5/15, Loss: 0.1401, Accuracy: 0.9569
+
+Epoch: 6/15, 1500/1500, ETA: 05m 00s
+Epoch 6/15, Loss: 0.1298, Accuracy: 0.9598
+
+Epoch: 7/15, 1500/1500, ETA: 05m 08s
+Epoch 7/15, Loss: 0.1258, Accuracy: 0.9610
+
+Epoch: 8/15, 1500/1500, ETA: 05m 04s
+Epoch 8/15, Loss: 0.1213, Accuracy: 0.9630
+
+Epoch: 9/15, 1500/1500, ETA: 04m 49s
+Epoch 9/15, Loss: 0.1175, Accuracy: 0.9631
+
+Epoch: 10/15, 1500/1500, ETA: 04m 25s
+Epoch 10/15, Loss: 0.1159, Accuracy: 0.9648
+
+Epoch: 11/15, 1500/1500, ETA: 03m 52s
+Epoch 11/15, Loss: 0.1091, Accuracy: 0.9654
+
+
+Epoch: 12/15, 1500/1500, ETA: 03m 09s
+Epoch 12/15, Loss: 0.1090, Accuracy: 0.9663
+
+Epoch: 13/15, 1500/1500, ETA: 02m 15s
+Epoch 13/15, Loss: 0.1079, Accuracy: 0.9666
+
+
+Epoch: 14/15, 1500/1500, ETA: 01m 12s
+Epoch 14/15, Loss: 0.1070, Accuracy: 0.9668
+
+Epoch: 15/15, 1500/1500, ETA: 00m 00s
+Epoch 15/15, Loss: 0.1051, Accuracy: 0.9672

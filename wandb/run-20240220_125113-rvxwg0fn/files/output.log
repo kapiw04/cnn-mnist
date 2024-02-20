@@ -1,0 +1,99 @@
+
+
+
+
+
+Epoch: 1/15, 3000/3000, ETA: 03m 54s
+Epoch 1/15, Loss: 0.2446, Accuracy: 0.9263
+Validation Loss: 0.1098, Validation Accuracy: 0.9661
+
+
+
+
+Epoch: 2/15, 3000/3000, ETA: 05m 43s
+Epoch 2/15, Loss: 0.1486, Accuracy: 0.9550
+Validation Loss: 0.0862, Validation Accuracy: 0.9731
+
+
+
+Epoch: 3/15, 3000/3000, ETA: 07m 43s
+Epoch 3/15, Loss: 0.1382, Accuracy: 0.9583
+Validation Loss: 0.0893, Validation Accuracy: 0.9715
+
+
+
+
+Epoch: 4/15, 3000/3000, ETA: 08m 57s
+Epoch 4/15, Loss: 0.1289, Accuracy: 0.9617
+Validation Loss: 0.1015, Validation Accuracy: 0.9692
+
+
+
+
+Epoch: 5/15, 3000/3000, ETA: 09m 55s
+Epoch 5/15, Loss: 0.1278, Accuracy: 0.9612
+Validation Loss: 0.0908, Validation Accuracy: 0.9739
+
+
+
+
+Epoch: 6/15, 3000/3000, ETA: 10m 49s
+Epoch 6/15, Loss: 0.1232, Accuracy: 0.9625
+Validation Loss: 0.0856, Validation Accuracy: 0.9734
+
+
+
+
+
+Epoch: 7/15, 3000/3000, ETA: 11m 19s
+Epoch 7/15, Loss: 0.1206, Accuracy: 0.9643
+Validation Loss: 0.0831, Validation Accuracy: 0.9753
+
+
+
+
+Epoch: 8/15, 3000/3000, ETA: 11m 09s
+Epoch 8/15, Loss: 0.1169, Accuracy: 0.9649
+Validation Loss: 0.0713, Validation Accuracy: 0.9777
+
+
+
+Epoch: 9/15, 3000/3000, ETA: 10m 35s
+Epoch 9/15, Loss: 0.1156, Accuracy: 0.9636
+Validation Loss: 0.0741, Validation Accuracy: 0.9788
+
+
+
+Epoch: 10/15, 3000/3000, ETA: 09m 37s
+Epoch 10/15, Loss: 0.1116, Accuracy: 0.9659
+Validation Loss: 0.1144, Validation Accuracy: 0.9664
+
+
+
+Epoch: 11/15, 3000/3000, ETA: 08m 19s
+Epoch 11/15, Loss: 0.1095, Accuracy: 0.9665
+Validation Loss: 0.0927, Validation Accuracy: 0.9717
+
+
+
+Epoch: 12/15, 3000/3000, ETA: 06m 43s
+Epoch 12/15, Loss: 0.1110, Accuracy: 0.9663
+Validation Loss: 0.0657, Validation Accuracy: 0.9785
+
+
+
+Epoch: 13/15, 3000/3000, ETA: 04m 47s
+Epoch 13/15, Loss: 0.1060, Accuracy: 0.9678
+Validation Loss: 0.0932, Validation Accuracy: 0.9715
+
+
+
+Epoch: 14/15, 3000/3000, ETA: 02m 34s
+Epoch 14/15, Loss: 0.1057, Accuracy: 0.9676
+Validation Loss: 0.0648, Validation Accuracy: 0.9802
+
+
+
+Epoch: 15/15, 3000/3000, ETA: 00m 00s
+Epoch 15/15, Loss: 0.1085, Accuracy: 0.9679
+Validation Loss: 0.0776, Validation Accuracy: 0.9782

@@ -1,0 +1,83 @@
+
+
+
+Epoch: 1/15, 3000/3000, ETA: 02m 13s
+Epoch 1/15, Loss: 0.2249, Accuracy: 0.9291
+Validation Loss: 0.1353, Validation Accuracy: 0.9602
+
+
+
+Epoch: 2/15, 3000/3000, ETA: 03m 43s
+Epoch 2/15, Loss: 0.0907, Accuracy: 0.9719
+Validation Loss: 0.0771, Validation Accuracy: 0.9778
+
+
+
+Epoch: 3/15, 3000/3000, ETA: 04m 59s
+Epoch 3/15, Loss: 0.0799, Accuracy: 0.9762
+Validation Loss: 0.0967, Validation Accuracy: 0.9715
+
+
+
+Epoch: 4/15, 3000/3000, ETA: 05m 59s
+Epoch 4/15, Loss: 0.0695, Accuracy: 0.9787
+Validation Loss: 0.0771, Validation Accuracy: 0.9760
+
+
+Epoch: 5/15, 3000/3000, ETA: 06m 45s
+Epoch 5/15, Loss: 0.0719, Accuracy: 0.9789
+Validation Loss: 0.0917, Validation Accuracy: 0.9718
+
+
+
+Epoch: 6/15, 3000/3000, ETA: 07m 17s
+Epoch 6/15, Loss: 0.0681, Accuracy: 0.9795
+Validation Loss: 0.0923, Validation Accuracy: 0.9726
+
+
+
+Epoch: 7/15, 3000/3000, ETA: 07m 35s
+Epoch 7/15, Loss: 0.0643, Accuracy: 0.9805
+Validation Loss: 0.1187, Validation Accuracy: 0.9708
+
+
+
+Epoch: 8/15, 3000/3000, ETA: 07m 36s
+Epoch 8/15, Loss: 0.0638, Accuracy: 0.9808
+Validation Loss: 0.0935, Validation Accuracy: 0.9736
+
+
+Epoch: 9/15, 3000/3000, ETA: 07m 19s
+Epoch 9/15, Loss: 0.0617, Accuracy: 0.9816
+Validation Loss: 0.0763, Validation Accuracy: 0.9803
+
+
+
+Epoch: 10/15, 3000/3000, ETA: 06m 44s
+Epoch 10/15, Loss: 0.0592, Accuracy: 0.9824
+Validation Loss: 0.0932, Validation Accuracy: 0.9749
+
+
+Epoch: 11/15, 3000/3000, ETA: 05m 53s
+Epoch 11/15, Loss: 0.0566, Accuracy: 0.9832
+Validation Loss: 0.0898, Validation Accuracy: 0.9758
+
+
+Epoch: 12/15, 3000/3000, ETA: 04m 47s
+Epoch 12/15, Loss: 0.0577, Accuracy: 0.9835
+Validation Loss: 0.0791, Validation Accuracy: 0.9795
+
+
+Epoch: 13/15, 3000/3000, ETA: 03m 27s
+Epoch 13/15, Loss: 0.0612, Accuracy: 0.9818
+Validation Loss: 0.0814, Validation Accuracy: 0.9765
+
+
+Epoch: 14/15, 3000/3000, ETA: 01m 51s
+Epoch 14/15, Loss: 0.0582, Accuracy: 0.9828
+Validation Loss: 0.1375, Validation Accuracy: 0.9617
+
+
+Epoch: 15/15, 3000/3000, ETA: 00m 00s
+Epoch 15/15, Loss: 0.0543, Accuracy: 0.9839
+Validation Loss: 0.0994, Validation Accuracy: 0.9776
