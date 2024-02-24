@@ -13,7 +13,7 @@ def init_wandb(project_name, config):
 def train_model(model, loss_fn, optimizer, train, val):
     phases = {
         "train": train,
-        "val": val
+        "val": val,
     }
     model = model.to(DEVICE)
 
@@ -34,6 +34,9 @@ def train_model(model, loss_fn, optimizer, train, val):
                 
             else:
                 model.eval()
+                total_val_loss = 0
+                val_correct = 0
+                total_val_samples = 0
                 for i, (X, y) in enumerate(val):
                     with torch.no_grad():
                         X, y = X.to(DEVICE), y.to(DEVICE)

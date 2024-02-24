@@ -8,11 +8,11 @@ class CNN(nn.Module):
         super(CNN, self).__init__()
         self.conv1 = nn.Conv2d(1, conv_1_size, kernel_size) # 1 input, conv_1_size output, kernel_size kernel size
         self.conv2 = nn.Conv2d(conv_1_size, conv_2_size, kernel_size)
-        self.conv3 = nn.Conv2d(conv_2_size, conv_3_size, kernel_size)
+        # self.conv3 = nn.Conv2d(conv_2_size, conv_3_size, kernel_size)
         # self.conv4 = nn.Conv2d(conv_3_size, conv_4_size, kernel_size)
         self.dropout = nn.Dropout(dropout_rate)
         self.maxPool = nn.MaxPool2d(2, 2) # 2 kernel size, 2 stride, no padding
-        self.fc1 = nn.Linear(512, l1_size)
+        self.fc1 = nn.Linear(conv_2_size * 5 * 5, l1_size) # 5x5 image dimension
         self.fc2 = nn.Linear(l1_size, l2_size)
         self.fc3 = nn.Linear(l2_size, 10)
         self.batch_norm1 = nn.BatchNorm2d(conv_1_size)
@@ -22,8 +22,8 @@ class CNN(nn.Module):
         x = F.relu(self.maxPool(self.conv1(x)))
         x = self.dropout(x)
         x = F.relu(self.maxPool(self.conv2(x)))
-        x = self.dropout(x)
-        x = F.relu(self.maxPool(self.conv3(x)))
+        # x = self.dropout(x)
+        # x = F.relu(self.maxPool(self.conv3(x)))
         x = torch.flatten(x, 1) 
         x = self.fc1(x)
         x = self.fc2(x)

@@ -21,7 +21,7 @@ config = {
     "optimizer": OPTIMIZER,
 }
 
-init_wandb("resnet50", config)
+init_wandb("mnist-cnn", config)
 
 loss_fn = torch.nn.CrossEntropyLoss()
 
