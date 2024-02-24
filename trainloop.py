@@ -44,8 +44,6 @@ def train_model(model, loss_fn, optimizer, train, val):
                         val_correct += (pred.argmax(1) == y).type(torch.float).sum().item()
                         total_val_samples += y.size(0)
                         wandb.log({
-                            'train_loss': total_train_loss / total_train_samples,
-                            'train_accuracy': train_correct / total_train_samples,
                             'val_loss': total_val_loss / total_val_samples,
                             'val_accuracy': val_correct / total_val_samples
                         }, step=epoch)
