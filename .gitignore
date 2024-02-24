@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 wandb/*
 resnet_finetunded.py
 cnn.ipynbcnn.py
+=======
+wandb/*
+>>>>>>> 249a24f (Remove cnn.py and update .gitignore)
