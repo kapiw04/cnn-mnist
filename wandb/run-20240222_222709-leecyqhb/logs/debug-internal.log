@@ -1,0 +1,183 @@
+2024-02-22 22:27:09,312 INFO    StreamThr :9848 [internal.py:wandb_internal():86] W&B internal server running at pid: 9848, started at: 2024-02-22 22:27:09.311854
+2024-02-22 22:27:09,314 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: status
+2024-02-22 22:27:09,316 INFO    WriterThread:9848 [datastore.py:open_for_write():87] open: /home/kapi/Programming/Internship/cnn-mnist/wandb/run-20240222_222709-leecyqhb/run-leecyqhb.wandb
+2024-02-22 22:27:09,317 DEBUG   SenderThread:9848 [sender.py:send():382] send: header
+2024-02-22 22:27:09,321 DEBUG   SenderThread:9848 [sender.py:send():382] send: run
+2024-02-22 22:27:09,919 INFO    SenderThread:9848 [dir_watcher.py:__init__():211] watching files in: /home/kapi/Programming/Internship/cnn-mnist/wandb/run-20240222_222709-leecyqhb/files
+2024-02-22 22:27:09,919 INFO    SenderThread:9848 [sender.py:_start_run_threads():1136] run started: leecyqhb with start time 1708637229.311796
+2024-02-22 22:27:09,926 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: check_version
+2024-02-22 22:27:09,926 DEBUG   SenderThread:9848 [sender.py:send_request():409] send_request: check_version
+2024-02-22 22:27:10,247 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: run_start
+2024-02-22 22:27:10,275 DEBUG   HandlerThread:9848 [system_info.py:__init__():27] System info init
+2024-02-22 22:27:10,275 DEBUG   HandlerThread:9848 [system_info.py:__init__():42] System info init done
+2024-02-22 22:27:10,275 INFO    HandlerThread:9848 [system_monitor.py:start():194] Starting system monitor
+2024-02-22 22:27:10,276 INFO    SystemMonitor:9848 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-22 22:27:10,278 INFO    HandlerThread:9848 [system_monitor.py:probe():214] Collecting system info
+2024-02-22 22:27:10,279 INFO    SystemMonitor:9848 [interfaces.py:start():190] Started cpu monitoring
+2024-02-22 22:27:10,280 INFO    SystemMonitor:9848 [interfaces.py:start():190] Started disk monitoring
+2024-02-22 22:27:10,282 INFO    SystemMonitor:9848 [interfaces.py:start():190] Started gpu monitoring
+2024-02-22 22:27:10,285 INFO    SystemMonitor:9848 [interfaces.py:start():190] Started memory monitoring
+2024-02-22 22:27:10,286 INFO    SystemMonitor:9848 [interfaces.py:start():190] Started network monitoring
+2024-02-22 22:27:10,300 DEBUG   HandlerThread:9848 [system_info.py:probe():151] Probing system
+2024-02-22 22:27:10,303 DEBUG   HandlerThread:9848 [system_info.py:_probe_git():136] Probing git
+2024-02-22 22:27:10,309 DEBUG   HandlerThread:9848 [system_info.py:_probe_git():144] Probing git done
+2024-02-22 22:27:10,309 DEBUG   HandlerThread:9848 [system_info.py:probe():199] Probing system done
+2024-02-22 22:27:10,309 DEBUG   HandlerThread:9848 [system_monitor.py:probe():223] {'os': 'Linux-6.5.13-7-MANJARO-x86_64-with-glibc2.38', 'python': '3.11.6', 'heartbeatAt': '2024-02-22T21:27:10.300874', 'startedAt': '2024-02-22T21:27:09.305023', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/kapi/Programming/Internship/cnn-mnist/resnet_finetuned.py', 'codePathLocal': 'resnet_finetuned.py', 'codePath': 'resnet_finetuned.py', 'git': {'remote': 'https://github.com/kapiw04/cnn-mnist.git', 'commit': '1f7fa3be6248963a3abd3a9120de74ac64aa3986'}, 'email': 'wojtowicz.kacper@gmail.com', 'root': '/home/kapi/Programming/Internship/cnn-mnist', 'host': 'medion', 'username': 'kapi', 'executable': '/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 1521.2014166666665, 'min': 800.0, 'max': 4600.0}, 'cpu_freq_per_core': [{'current': 1719.889, 'min': 800.0, 'max': 4600.0}, {'current': 1785.052, 'min': 800.0, 'max': 4600.0}, {'current': 1748.008, 'min': 800.0, 'max': 4600.0}, {'current': 1849.562, 'min': 800.0, 'max': 4600.0}, {'current': 1772.328, 'min': 800.0, 'max': 4600.0}, {'current': 1761.076, 'min': 800.0, 'max': 4600.0}, {'current': 1711.636, 'min': 800.0, 'max': 4600.0}, {'current': 1888.572, 'min': 800.0, 'max': 4600.0}, {'current': 1767.292, 'min': 800.0, 'max': 4600.0}, {'current': 1815.674, 'min': 800.0, 'max': 4600.0}, {'current': 1887.175, 'min': 800.0, 'max': 4600.0}, {'current': 1299.974, 'min': 800.0, 'max': 4600.0}], 'disk': {'/': {'total': 85.18550491333008, 'used': 43.631465911865234}}, 'gpu': 'NVIDIA GeForce GTX 1060 6GB', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1060 6GB', 'memory_total': 6442450944}], 'memory': {'total': 7.644630432128906}}
+2024-02-22 22:27:10,309 INFO    HandlerThread:9848 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-22 22:27:10,309 INFO    HandlerThread:9848 [system_monitor.py:probe():227] Publishing system info
+2024-02-22 22:27:10,309 INFO    HandlerThread:9848 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-22 22:27:10,311 DEBUG   SenderThread:9848 [sender.py:send():382] send: files
+2024-02-22 22:27:10,311 INFO    SenderThread:9848 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-22 22:27:10,315 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-22 22:27:10,315 DEBUG   SenderThread:9848 [sender.py:send_request():409] send_request: python_packages
+2024-02-22 22:27:10,316 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-22 22:27:10,316 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-22 22:27:10,316 DEBUG   SenderThread:9848 [sender.py:send_request():409] send_request: stop_status
+2024-02-22 22:27:10,631 DEBUG   SenderThread:9848 [sender.py:send():382] send: telemetry
+2024-02-22 22:27:10,631 DEBUG   SenderThread:9848 [sender.py:send():382] send: telemetry
+2024-02-22 22:27:10,641 DEBUG   SenderThread:9848 [sender.py:send():382] send: exit
+2024-02-22 22:27:10,641 INFO    SenderThread:9848 [sender.py:send_exit():589] handling exit code: 0
+2024-02-22 22:27:10,642 INFO    SenderThread:9848 [sender.py:send_exit():591] handling runtime: 0
+2024-02-22 22:27:10,642 INFO    SenderThread:9848 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-22 22:27:10,643 INFO    SenderThread:9848 [sender.py:send_exit():597] send defer
+2024-02-22 22:27:10,644 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 22:27:10,644 INFO    HandlerThread:9848 [handler.py:handle_request_defer():172] handle defer: 0
+2024-02-22 22:27:10,644 DEBUG   SenderThread:9848 [sender.py:send_request():409] send_request: defer
+2024-02-22 22:27:10,645 INFO    SenderThread:9848 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-02-22 22:27:10,645 INFO    SenderThread:9848 [sender.py:transition_state():617] send defer: 1
+2024-02-22 22:27:10,645 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 22:27:10,645 INFO    HandlerThread:9848 [handler.py:handle_request_defer():172] handle defer: 1
+2024-02-22 22:27:10,646 DEBUG   SenderThread:9848 [sender.py:send_request():409] send_request: defer
+2024-02-22 22:27:10,646 INFO    SenderThread:9848 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-02-22 22:27:10,646 INFO    SenderThread:9848 [sender.py:transition_state():617] send defer: 2
+2024-02-22 22:27:10,646 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 22:27:10,647 INFO    HandlerThread:9848 [handler.py:handle_request_defer():172] handle defer: 2
+2024-02-22 22:27:10,647 INFO    HandlerThread:9848 [system_monitor.py:finish():203] Stopping system monitor
+2024-02-22 22:27:10,647 DEBUG   SystemMonitor:9848 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-22 22:27:10,647 DEBUG   SystemMonitor:9848 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-22 22:27:10,647 DEBUG   SystemMonitor:9848 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-22 22:27:10,648 INFO    HandlerThread:9848 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-22 22:27:10,649 INFO    HandlerThread:9848 [interfaces.py:finish():202] Joined disk monitor
+2024-02-22 22:27:10,725 INFO    HandlerThread:9848 [interfaces.py:finish():202] Joined gpu monitor
+2024-02-22 22:27:10,725 INFO    HandlerThread:9848 [interfaces.py:finish():202] Joined memory monitor
+2024-02-22 22:27:10,726 INFO    HandlerThread:9848 [interfaces.py:finish():202] Joined network monitor
+2024-02-22 22:27:10,726 DEBUG   SenderThread:9848 [sender.py:send_request():409] send_request: defer
+2024-02-22 22:27:10,726 INFO    SenderThread:9848 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-02-22 22:27:10,726 INFO    SenderThread:9848 [sender.py:transition_state():617] send defer: 3
+2024-02-22 22:27:10,726 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 22:27:10,726 INFO    HandlerThread:9848 [handler.py:handle_request_defer():172] handle defer: 3
+2024-02-22 22:27:10,726 DEBUG   SenderThread:9848 [sender.py:send_request():409] send_request: defer
+2024-02-22 22:27:10,726 INFO    SenderThread:9848 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-02-22 22:27:10,726 INFO    SenderThread:9848 [sender.py:transition_state():617] send defer: 4
+2024-02-22 22:27:10,726 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 22:27:10,726 INFO    HandlerThread:9848 [handler.py:handle_request_defer():172] handle defer: 4
+2024-02-22 22:27:10,726 DEBUG   SenderThread:9848 [sender.py:send_request():409] send_request: defer
+2024-02-22 22:27:10,726 INFO    SenderThread:9848 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-02-22 22:27:10,726 INFO    SenderThread:9848 [sender.py:transition_state():617] send defer: 5
+2024-02-22 22:27:10,727 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 22:27:10,727 INFO    HandlerThread:9848 [handler.py:handle_request_defer():172] handle defer: 5
+2024-02-22 22:27:10,727 DEBUG   SenderThread:9848 [sender.py:send():382] send: summary
+2024-02-22 22:27:10,727 INFO    SenderThread:9848 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-22 22:27:10,727 DEBUG   SenderThread:9848 [sender.py:send_request():409] send_request: defer
+2024-02-22 22:27:10,727 INFO    SenderThread:9848 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-02-22 22:27:10,727 INFO    SenderThread:9848 [sender.py:transition_state():617] send defer: 6
+2024-02-22 22:27:10,727 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 22:27:10,727 INFO    HandlerThread:9848 [handler.py:handle_request_defer():172] handle defer: 6
+2024-02-22 22:27:10,727 DEBUG   SenderThread:9848 [sender.py:send_request():409] send_request: defer
+2024-02-22 22:27:10,728 INFO    SenderThread:9848 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-02-22 22:27:10,729 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: status_report
+2024-02-22 22:27:10,922 INFO    Thread-12 :9848 [dir_watcher.py:_on_file_created():271] file/dir created: /home/kapi/Programming/Internship/cnn-mnist/wandb/run-20240222_222709-leecyqhb/files/output.log
+2024-02-22 22:27:10,922 INFO    Thread-12 :9848 [dir_watcher.py:_on_file_created():271] file/dir created: /home/kapi/Programming/Internship/cnn-mnist/wandb/run-20240222_222709-leecyqhb/files/wandb-metadata.json
+2024-02-22 22:27:10,922 INFO    Thread-12 :9848 [dir_watcher.py:_on_file_created():271] file/dir created: /home/kapi/Programming/Internship/cnn-mnist/wandb/run-20240222_222709-leecyqhb/files/requirements.txt
+2024-02-22 22:27:10,923 INFO    Thread-12 :9848 [dir_watcher.py:_on_file_created():271] file/dir created: /home/kapi/Programming/Internship/cnn-mnist/wandb/run-20240222_222709-leecyqhb/files/wandb-summary.json
+2024-02-22 22:27:10,940 INFO    SenderThread:9848 [sender.py:transition_state():617] send defer: 7
+2024-02-22 22:27:10,940 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 22:27:10,940 INFO    HandlerThread:9848 [handler.py:handle_request_defer():172] handle defer: 7
+2024-02-22 22:27:10,941 DEBUG   SenderThread:9848 [sender.py:send_request():409] send_request: defer
+2024-02-22 22:27:10,941 INFO    SenderThread:9848 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-02-22 22:27:10,974 INFO    wandb-upload_0:9848 [upload_job.py:push():131] Uploaded file /tmp/tmpxhye25zowandb/e8r8ahei-wandb-metadata.json
+2024-02-22 22:27:11,319 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-22 22:27:11,920 INFO    Thread-12 :9848 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kapi/Programming/Internship/cnn-mnist/wandb/run-20240222_222709-leecyqhb/files/config.yaml
+2024-02-22 22:27:12,645 INFO    SenderThread:9848 [sender.py:transition_state():617] send defer: 8
+2024-02-22 22:27:12,646 DEBUG   SenderThread:9848 [sender.py:send_request():409] send_request: poll_exit
+2024-02-22 22:27:12,646 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 22:27:12,647 INFO    HandlerThread:9848 [handler.py:handle_request_defer():172] handle defer: 8
+2024-02-22 22:27:12,648 DEBUG   SenderThread:9848 [sender.py:send_request():409] send_request: defer
+2024-02-22 22:27:12,648 INFO    SenderThread:9848 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-02-22 22:27:12,649 INFO    SenderThread:9848 [job_builder.py:build():296] Attempting to build job artifact
+2024-02-22 22:27:12,650 INFO    SenderThread:9848 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-02-22 22:27:12,704 INFO    SenderThread:9848 [job_builder.py:build():402] adding wandb-job metadata file
+2024-02-22 22:27:12,705 INFO    SenderThread:9848 [sender.py:transition_state():617] send defer: 9
+2024-02-22 22:27:12,706 DEBUG   SenderThread:9848 [sender.py:send():382] send: artifact
+2024-02-22 22:27:12,707 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 22:27:12,707 INFO    HandlerThread:9848 [handler.py:handle_request_defer():172] handle defer: 9
+2024-02-22 22:27:12,921 INFO    Thread-12 :9848 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kapi/Programming/Internship/cnn-mnist/wandb/run-20240222_222709-leecyqhb/files/output.log
+2024-02-22 22:27:13,320 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-22 22:27:13,905 INFO    SenderThread:9848 [sender.py:send_artifact():1494] sent artifact job-https___github.com_kapiw04_cnn-mnist.git_resnet_finetuned.py - {'id': 'QXJ0aWZhY3Q6NzI5MTc3MTgx', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MjE0NTczNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzI5MTc3MTgx', 'versionIndex': 0}}}
+2024-02-22 22:27:13,905 DEBUG   SenderThread:9848 [sender.py:send_request():409] send_request: defer
+2024-02-22 22:27:13,905 INFO    SenderThread:9848 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-02-22 22:27:13,905 INFO    SenderThread:9848 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-02-22 22:27:13,921 INFO    SenderThread:9848 [dir_watcher.py:finish():388] scan: /home/kapi/Programming/Internship/cnn-mnist/wandb/run-20240222_222709-leecyqhb/files
+2024-02-22 22:27:13,921 INFO    SenderThread:9848 [dir_watcher.py:finish():402] scan save: /home/kapi/Programming/Internship/cnn-mnist/wandb/run-20240222_222709-leecyqhb/files/config.yaml config.yaml
+2024-02-22 22:27:13,921 INFO    SenderThread:9848 [dir_watcher.py:finish():402] scan save: /home/kapi/Programming/Internship/cnn-mnist/wandb/run-20240222_222709-leecyqhb/files/output.log output.log
+2024-02-22 22:27:13,923 INFO    SenderThread:9848 [dir_watcher.py:finish():402] scan save: /home/kapi/Programming/Internship/cnn-mnist/wandb/run-20240222_222709-leecyqhb/files/wandb-summary.json wandb-summary.json
+2024-02-22 22:27:13,923 INFO    SenderThread:9848 [dir_watcher.py:finish():402] scan save: /home/kapi/Programming/Internship/cnn-mnist/wandb/run-20240222_222709-leecyqhb/files/requirements.txt requirements.txt
+2024-02-22 22:27:13,923 INFO    SenderThread:9848 [dir_watcher.py:finish():402] scan save: /home/kapi/Programming/Internship/cnn-mnist/wandb/run-20240222_222709-leecyqhb/files/wandb-metadata.json wandb-metadata.json
+2024-02-22 22:27:13,924 INFO    SenderThread:9848 [sender.py:transition_state():617] send defer: 10
+2024-02-22 22:27:13,925 DEBUG   SenderThread:9848 [sender.py:send_request():409] send_request: poll_exit
+2024-02-22 22:27:13,926 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 22:27:13,926 INFO    HandlerThread:9848 [handler.py:handle_request_defer():172] handle defer: 10
+2024-02-22 22:27:13,927 DEBUG   SenderThread:9848 [sender.py:send_request():409] send_request: defer
+2024-02-22 22:27:13,927 INFO    SenderThread:9848 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-02-22 22:27:13,927 INFO    SenderThread:9848 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-22 22:27:14,320 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-22 22:27:14,321 DEBUG   SenderThread:9848 [sender.py:send_request():409] send_request: poll_exit
+2024-02-22 22:27:14,343 INFO    wandb-upload_1:9848 [upload_job.py:push():131] Uploaded file /home/kapi/Programming/Internship/cnn-mnist/wandb/run-20240222_222709-leecyqhb/files/output.log
+2024-02-22 22:27:14,426 INFO    wandb-upload_0:9848 [upload_job.py:push():131] Uploaded file /home/kapi/Programming/Internship/cnn-mnist/wandb/run-20240222_222709-leecyqhb/files/config.yaml
+2024-02-22 22:27:14,513 INFO    wandb-upload_3:9848 [upload_job.py:push():131] Uploaded file /home/kapi/Programming/Internship/cnn-mnist/wandb/run-20240222_222709-leecyqhb/files/requirements.txt
+2024-02-22 22:27:14,546 INFO    wandb-upload_2:9848 [upload_job.py:push():131] Uploaded file /home/kapi/Programming/Internship/cnn-mnist/wandb/run-20240222_222709-leecyqhb/files/wandb-summary.json
+2024-02-22 22:27:14,747 INFO    Thread-11 (_thread_body):9848 [sender.py:transition_state():617] send defer: 11
+2024-02-22 22:27:14,747 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 22:27:14,747 INFO    HandlerThread:9848 [handler.py:handle_request_defer():172] handle defer: 11
+2024-02-22 22:27:14,748 DEBUG   SenderThread:9848 [sender.py:send_request():409] send_request: defer
+2024-02-22 22:27:14,748 INFO    SenderThread:9848 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-02-22 22:27:14,748 INFO    SenderThread:9848 [file_pusher.py:join():178] waiting for file pusher
+2024-02-22 22:27:14,748 INFO    SenderThread:9848 [sender.py:transition_state():617] send defer: 12
+2024-02-22 22:27:14,748 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 22:27:14,748 INFO    HandlerThread:9848 [handler.py:handle_request_defer():172] handle defer: 12
+2024-02-22 22:27:14,748 DEBUG   SenderThread:9848 [sender.py:send_request():409] send_request: defer
+2024-02-22 22:27:14,749 INFO    SenderThread:9848 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-02-22 22:27:14,749 INFO    SenderThread:9848 [file_stream.py:finish():595] file stream finish called
+2024-02-22 22:27:14,930 INFO    SenderThread:9848 [file_stream.py:finish():599] file stream finish is done
+2024-02-22 22:27:14,930 INFO    SenderThread:9848 [sender.py:transition_state():617] send defer: 13
+2024-02-22 22:27:14,930 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 22:27:14,931 INFO    HandlerThread:9848 [handler.py:handle_request_defer():172] handle defer: 13
+2024-02-22 22:27:14,931 DEBUG   SenderThread:9848 [sender.py:send_request():409] send_request: defer
+2024-02-22 22:27:14,931 INFO    SenderThread:9848 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-02-22 22:27:14,932 INFO    SenderThread:9848 [sender.py:transition_state():617] send defer: 14
+2024-02-22 22:27:14,932 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: defer
+2024-02-22 22:27:14,932 INFO    HandlerThread:9848 [handler.py:handle_request_defer():172] handle defer: 14
+2024-02-22 22:27:14,933 DEBUG   SenderThread:9848 [sender.py:send():382] send: final
+2024-02-22 22:27:14,934 DEBUG   SenderThread:9848 [sender.py:send():382] send: footer
+2024-02-22 22:27:14,934 DEBUG   SenderThread:9848 [sender.py:send_request():409] send_request: defer
+2024-02-22 22:27:14,934 INFO    SenderThread:9848 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-02-22 22:27:14,935 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-22 22:27:14,936 DEBUG   SenderThread:9848 [sender.py:send_request():409] send_request: poll_exit
+2024-02-22 22:27:14,937 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-22 22:27:14,938 DEBUG   SenderThread:9848 [sender.py:send_request():409] send_request: poll_exit
+2024-02-22 22:27:14,939 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: server_info
+2024-02-22 22:27:14,941 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: get_summary
+2024-02-22 22:27:14,941 DEBUG   SenderThread:9848 [sender.py:send_request():409] send_request: server_info
+2024-02-22 22:27:14,949 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: sampled_history
+2024-02-22 22:27:14,950 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-22 22:27:14,951 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: job_info
+2024-02-22 22:27:15,133 DEBUG   SenderThread:9848 [sender.py:send_request():409] send_request: job_info
+2024-02-22 22:27:15,134 INFO    MainThread:9848 [wandb_run.py:_footer_history_summary_info():3866] rendering history
+2024-02-22 22:27:15,134 INFO    MainThread:9848 [wandb_run.py:_footer_history_summary_info():3898] rendering summary
+2024-02-22 22:27:15,134 INFO    MainThread:9848 [wandb_run.py:_footer_sync_info():3825] logging synced files
+2024-02-22 22:27:15,134 DEBUG   HandlerThread:9848 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-22 22:27:15,134 INFO    HandlerThread:9848 [handler.py:finish():869] shutting down handler
+2024-02-22 22:27:15,953 INFO    WriterThread:9848 [datastore.py:close():296] close: /home/kapi/Programming/Internship/cnn-mnist/wandb/run-20240222_222709-leecyqhb/run-leecyqhb.wandb
+2024-02-22 22:27:16,134 INFO    SenderThread:9848 [sender.py:finish():1572] shutting down sender
+2024-02-22 22:27:16,134 INFO    SenderThread:9848 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-22 22:27:16,134 INFO    SenderThread:9848 [file_pusher.py:join():178] waiting for file pusher

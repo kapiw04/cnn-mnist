@@ -28,19 +28,20 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 device
 
 batch_size = 64
-learning_rate = 0.008
+learning_rate = 0.01
 num_epochs = 15
-momentum = 0.95
+momentum = 0.8
 
-kernel_size = 3
+kernel_size = 2  # Decrease the kernel size to 2
 
-dropout_rate = 0.5
+dropout_rate = 0.4
 l1_size = 256
 l2_size = 128
 
 conv_1_size = 32
 conv_2_size = 32
-conv_3_size = 64
+conv_3_size = 128
+conv_4_size = 0
 
 train = DataLoader(dataset=train_dataset, batch_size=batch_size, shuffle=True, pin_memory=True, num_workers=4)
 test = DataLoader(dataset=test_dataset, batch_size=batch_size, shuffle=False, pin_memory=True, num_workers=4)
@@ -65,7 +66,9 @@ wandb.init(
         "l2_size": l2_size,
         "batch_norm": 1,
         "conv_1_size": conv_1_size,
-        "conv_2_size": conv_2_size
+        "conv_2_size": conv_2_size,
+        "conv_3_size": conv_3_size,
+        "conv_4_size": conv_4_size,
     })
 
 class CNN(nn.Module):
@@ -74,9 +77,10 @@ class CNN(nn.Module):
         self.conv1 = nn.Conv2d(1, conv_1_size, kernel_size) # 1 input, conv_1_size output, kernel_size kernel size
         self.conv2 = nn.Conv2d(conv_1_size, conv_2_size, kernel_size)
         self.conv3 = nn.Conv2d(conv_2_size, conv_3_size, kernel_size)
+        # self.conv4 = nn.Conv2d(conv_3_size, conv_4_size, kernel_size)
         self.dropout = nn.Dropout(dropout_rate)
         self.maxPool = nn.MaxPool2d(2, 2) # 2 kernel size, 2 stride, no padding
-        self.fc1 = nn.Linear(576, l1_size)
+        self.fc1 = nn.Linear(512, l1_size)
         self.fc2 = nn.Linear(l1_size, l2_size)
         self.fc3 = nn.Linear(l2_size, 10)
         self.batch_norm1 = nn.BatchNorm2d(conv_1_size)
@@ -87,8 +91,7 @@ class CNN(nn.Module):
         x = self.dropout(x)
         x = F.relu(self.maxPool(self.conv2(x)))
         x = self.dropout(x)
-        x = F.relu(self.conv3(x))
-        x = self.dropout(x)
+        x = F.relu(self.maxPool(self.conv3(x)))
         x = torch.flatten(x, 1) 
         x = self.fc1(x)
         x = self.fc2(x)
@@ -101,6 +104,8 @@ model = CNN(l1_size, l2_size, kernel_size, dropout_rate).to(device)
 loss_fn = nn.CrossEntropyLoss()
 optimizer = optim.SGD(model.parameters(), lr=learning_rate, momentum=momentum)
 # optimizer = optim.Adam(model.parameters(), lr=learning_rate)
+
+print(type(train.dataset.dataset.data[0]), train.dataset.dataset.data[0].shape)
 
 for epoch in range(num_epochs):
     model.train()

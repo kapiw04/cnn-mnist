@@ -24,3 +24,4 @@ config: {'data_normalization': 'True', 'learning_rate': 0.008, 'batch_size': 64,
 2024-02-20 13:55:38,125 INFO    MainThread:45324 [wandb_run.py:_redirect():2161] Wrapping output streams.
 2024-02-20 13:55:38,125 INFO    MainThread:45324 [wandb_run.py:_redirect():2186] Redirects installed.
 2024-02-20 13:55:38,126 INFO    MainThread:45324 [wandb_init.py:init():847] run started, returning control to user process
+2024-02-20 13:58:52,069 WARNING MsgRouterThr:45324 [router.py:message_loop():77] message_loop has been closed

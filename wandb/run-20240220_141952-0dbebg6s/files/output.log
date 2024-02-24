@@ -1,0 +1,56 @@
+
+Epoch: 1/15, 750/750, ETA: 01m 36s
+Epoch 1/15, Loss: 0.5299, Accuracy: 0.8269
+Validation Loss: 0.1960, Validation Accuracy: 0.9367
+Epoch: 2/15, 750/750, ETA: 02m 28s
+Epoch 2/15, Loss: 0.3421, Accuracy: 0.8922
+Validation Loss: 0.2024, Validation Accuracy: 0.9343
+
+Epoch: 3/15, 750/750, ETA: 03m 13s
+Epoch 3/15, Loss: 0.3082, Accuracy: 0.9043
+Validation Loss: 0.1742, Validation Accuracy: 0.9457
+
+Epoch: 4/15, 750/750, ETA: 03m 48s
+Epoch 4/15, Loss: 0.3078, Accuracy: 0.9026
+Validation Loss: 0.1973, Validation Accuracy: 0.9398
+
+Epoch: 5/15, 750/750, ETA: 04m 10s
+Epoch 5/15, Loss: 0.2988, Accuracy: 0.9067
+Validation Loss: 0.1483, Validation Accuracy: 0.9530
+Epoch: 6/15, 750/750, ETA: 04m 26s
+Epoch 6/15, Loss: 0.2911, Accuracy: 0.9096
+Validation Loss: 0.1665, Validation Accuracy: 0.9487
+
+Epoch: 7/15, 750/750, ETA: 04m 31s
+Epoch 7/15, Loss: 0.2859, Accuracy: 0.9109
+Validation Loss: 0.1717, Validation Accuracy: 0.9478
+
+Epoch: 8/15, 750/750, ETA: 04m 27s
+Epoch 8/15, Loss: 0.2817, Accuracy: 0.9127
+Validation Loss: 0.1603, Validation Accuracy: 0.9498
+
+Epoch: 9/15, 750/750, ETA: 04m 16s
+Epoch 9/15, Loss: 0.2871, Accuracy: 0.9094
+Validation Loss: 0.1666, Validation Accuracy: 0.9463
+
+Epoch: 10/15, 750/750, ETA: 03m 56s
+Epoch 10/15, Loss: 0.2742, Accuracy: 0.9126
+Validation Loss: 0.1468, Validation Accuracy: 0.9549
+Epoch: 11/15, 750/750, ETA: 03m 26s
+Epoch 11/15, Loss: 0.2761, Accuracy: 0.9140
+Validation Loss: 0.1723, Validation Accuracy: 0.9473
+
+Epoch: 12/15, 750/750, ETA: 02m 48s
+Epoch 12/15, Loss: 0.2759, Accuracy: 0.9124
+Validation Loss: 0.1725, Validation Accuracy: 0.9473
+
+Epoch: 13/15, 750/750, ETA: 02m 00s
+Epoch 13/15, Loss: 0.2796, Accuracy: 0.9124
+Validation Loss: 0.1555, Validation Accuracy: 0.9512
+
+Epoch: 14/15, 750/750, ETA: 01m 04s
+Epoch 14/15, Loss: 0.2775, Accuracy: 0.9123
+Validation Loss: 0.1994, Validation Accuracy: 0.9356
+Epoch: 15/15, 750/750, ETA: 00m 00s
+Epoch 15/15, Loss: 0.2832, Accuracy: 0.9114
+Validation Loss: 0.1460, Validation Accuracy: 0.9544

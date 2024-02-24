@@ -1,0 +1,55 @@
+
+Epoch: 1/15, 750/750, ETA: 01m 32s
+Epoch 1/15, Loss: 0.6385, Accuracy: 0.7802
+Validation Loss: 0.1248, Validation Accuracy: 0.9621
+
+Epoch: 2/15, 750/750, ETA: 02m 19s
+Epoch 2/15, Loss: 0.1388, Accuracy: 0.9569
+Validation Loss: 0.0853, Validation Accuracy: 0.9733
+
+Epoch: 3/15, 750/750, ETA: 03m 00s
+Epoch 3/15, Loss: 0.1013, Accuracy: 0.9681
+Validation Loss: 0.0732, Validation Accuracy: 0.9788
+
+Epoch: 4/15, 750/750, ETA: 03m 30s
+Epoch 4/15, Loss: 0.0875, Accuracy: 0.9719
+Validation Loss: 0.0848, Validation Accuracy: 0.9734
+
+Epoch: 5/15, 750/750, ETA: 03m 54s
+Epoch 5/15, Loss: 0.0779, Accuracy: 0.9753
+Validation Loss: 0.0663, Validation Accuracy: 0.9811
+
+Epoch: 6/15, 750/750, ETA: 04m 08s
+Epoch 6/15, Loss: 0.0693, Accuracy: 0.9782
+Validation Loss: 0.0544, Validation Accuracy: 0.9843
+
+Epoch: 7/15, 750/750, ETA: 04m 14s
+Epoch 7/15, Loss: 0.0652, Accuracy: 0.9798
+Validation Loss: 0.0517, Validation Accuracy: 0.9845
+Epoch: 8/15, 750/750, ETA: 04m 11s
+Epoch 8/15, Loss: 0.0618, Accuracy: 0.9805
+Validation Loss: 0.0536, Validation Accuracy: 0.9841
+Epoch: 9/15, 750/750, ETA: 04m 01s
+Epoch 9/15, Loss: 0.0585, Accuracy: 0.9810
+Validation Loss: 0.0602, Validation Accuracy: 0.9816
+Epoch: 10/15, 750/750, ETA: 03m 41s
+Epoch 10/15, Loss: 0.0563, Accuracy: 0.9820
+Validation Loss: 0.0567, Validation Accuracy: 0.9832
+Epoch: 11/15, 750/750, ETA: 03m 14s
+Epoch 11/15, Loss: 0.0529, Accuracy: 0.9825
+Validation Loss: 0.0544, Validation Accuracy: 0.9832
+Epoch: 12/15, 750/750, ETA: 02m 38s
+Epoch 12/15, Loss: 0.0529, Accuracy: 0.9820
+Validation Loss: 0.0632, Validation Accuracy: 0.9813
+
+Epoch: 13/15, 750/750, ETA: 01m 54s
+Epoch 13/15, Loss: 0.0499, Accuracy: 0.9833
+Validation Loss: 0.0495, Validation Accuracy: 0.9864
+
+Epoch: 14/15, 750/750, ETA: 01m 01s
+Epoch 14/15, Loss: 0.0492, Accuracy: 0.9844
+Validation Loss: 0.0520, Validation Accuracy: 0.9847
+
+Epoch: 15/15, 750/750, ETA: 00m 00s
+Epoch 15/15, Loss: 0.0461, Accuracy: 0.9851
+Validation Loss: 0.0581, Validation Accuracy: 0.9832

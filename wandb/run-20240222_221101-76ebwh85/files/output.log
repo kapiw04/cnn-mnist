@@ -1,0 +1,14 @@
+
+<class 'torch.Tensor'>
+Traceback (most recent call last):
+  File "/home/kapi/Programming/Internship/cnn-mnist/resnet_finetuned.py", line 79, in <module>
+    for i, (images, labels) in enumerate(train.dataset):
+  File "/usr/lib/python3.11/site-packages/torch/utils/data/dataset.py", line 356, in __getitem__
+    return self.dataset[self.indices[idx]]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/torchvision/datasets/mnist.py", line 142, in __getitem__
+    img = Image.fromarray(img.numpy(), mode="L")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/PIL/Image.py", line 3113, in fromarray
+    raise ValueError(msg)
+ValueError: Too many dimensions: 3 > 2.
