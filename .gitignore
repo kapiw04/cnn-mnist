@@ -1,6 +1,3 @@
-wandb/*
-resnet_finetunded.py
-cnn.ipynb
-wandb/latest-run
-wandb/debug.log
-wandb/debug-internal.log
+wandb
+__pycache__
+
