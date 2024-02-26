@@ -1,8 +1,7 @@
 import torch
 from my_utils import eta
 import wandb
-from hyperparameters import *
-
+from hyperparameters import DEVICE, NUM_EPOCHS
 def init_wandb(project_name, config):
     wandb.init(
         project=project_name,
@@ -10,10 +9,10 @@ def init_wandb(project_name, config):
     )
 
 
-def train_model(model, loss_fn, optimizer, train, val):
+def train_model(model, loss_fn, optimizer, train_dataset: torch.utils.data.Dataloader, val_dataset: torch.utils.data.DataLoader):
     phases = {
-        "train": train,
-        "val": val,
+        "train": train_dataset,
+        "val": val_dataset,
     }
     model = model.to(DEVICE)
 
@@ -21,7 +20,7 @@ def train_model(model, loss_fn, optimizer, train, val):
         for epoch in range(NUM_EPOCHS):
             if phase == "train":
                 model.train()
-                for i, (X, y) in enumerate(train):
+                for i, (X, y) in enumerate(train_dataset):
                     X, y = X.to(DEVICE), y.to(DEVICE)
                     pred = model(X)
                     loss = loss_fn(pred, y)
@@ -30,14 +29,14 @@ def train_model(model, loss_fn, optimizer, train, val):
                     loss.backward()
                     optimizer.step()
 
-                    eta(epoch, i, NUM_EPOCHS, train)
+                    eta(epoch, i, NUM_EPOCHS, train_dataset)
                 
             else:
                 model.eval()
                 total_val_loss = 0
                 val_correct = 0
                 total_val_samples = 0
-                for i, (X, y) in enumerate(val):
+                for i, (X, y) in enumerate(val_dataset):
                     with torch.no_grad():
                         X, y = X.to(DEVICE), y.to(DEVICE)
                         pred = model(X)

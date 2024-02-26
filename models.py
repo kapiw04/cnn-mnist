@@ -30,7 +30,16 @@ class CNN(nn.Module):
         x = self.fc3(x)
         return F.log_softmax(x, dim=1) 
 
-cnnModel = CNN(L1_SIZE, L2_SIZE, KERNEL_SIZE, DROPOUT_RATE, CONV_1_SIZE, CONV_2_SIZE, CONV_3_SIZE, CONV_4_SIZE).to(DEVICE)
+def create_cnn_model(l1_size: int,
+                    l2_size: int,
+                    kernel_size: int,
+                    dropout_rate: float,
+                    conv_1_size: int,
+                    conv_2_size: int,
+                    conv_3_size: int,
+                    conv_4_size: int) -> CNN:
+                        
+    return CNN(l1_size, l2_size, kernel_size, dropout_rate, conv_1_size, conv_2_size, conv_3_size, conv_4_size).to(DEVICE)
 
 resnet50Model = resnet50(weights=ResNet50_Weights.DEFAULT).to(DEVICE)
 
