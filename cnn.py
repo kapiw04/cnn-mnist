@@ -5,6 +5,8 @@ import torch
 from datasets import train_grayscale, val_grayscale
 import sys
 
+use_wandb = False
+
 config = {
     "batch_size": BATCH_SIZE,
     "learning_rate": LEARNING_RATE,
@@ -22,14 +24,17 @@ config = {
     "optimizer": OPTIMIZER,
 }
 
-for sys_arg in sys.argv:
-    if sys_arg in config.keys():
-        key, value = sys_arg.split("=")
+for sys_arg in sys.argv[1:]:
+    key, value = sys_arg.split("=")
+    if key in config.keys():
         config[key[2:]] = value
     else:
         print(f"Invalid argument: {sys_arg}. Ignoring.")
+    if sys_arg == "--use_wandb":
+        use_wandb = True
 
-init_wandb("mnist-cnn", config)
+if use_wandb:
+    init_wandb("mnist-cnn", config)
 
 loss_fn = torch.nn.CrossEntropyLoss()
 
@@ -49,4 +54,4 @@ model = create_cnn_model(l1_size=config["l1_size"],
 
 optimizer = torch.optim.SGD(model.parameters(), lr=LEARNING_RATE, momentum=MOMENTUM)
 
-trained_model = train_model(model, loss_fn, optimizer, train_grayscale, val_grayscale)
+trained_model = train_model(model, loss_fn, optimizer, train_grayscale, val_grayscale, use_wandb=use_wandb)

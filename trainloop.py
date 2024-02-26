@@ -2,14 +2,13 @@ import torch
 from my_utils import eta
 import wandb
 from hyperparameters import DEVICE, NUM_EPOCHS
+
 def init_wandb(project_name, config):
-    wandb.init(
-        project=project_name,
-        config=config
-    )
+    wandb.init(project=project_name, config=config)
+    wandb.config.update(config)
 
 
-def train_model(model, loss_fn, optimizer, train_dataset: torch.utils.data.Dataloader, val_dataset: torch.utils.data.DataLoader):
+def train_model(model, loss_fn, optimizer, train_dataset: torch.utils.data.DataLoader, val_dataset: torch.utils.data.DataLoader, use_wandb=False):
     phases = {
         "train": train_dataset,
         "val": val_dataset,
@@ -45,9 +44,10 @@ def train_model(model, loss_fn, optimizer, train_dataset: torch.utils.data.Datal
                         total_val_loss += loss.item()
                         val_correct += (pred.argmax(1) == y).type(torch.float).sum().item()
                         total_val_samples += y.size(0)
-                        wandb.log({
-                            'val_loss': total_val_loss / total_val_samples,
-                            'val_accuracy': val_correct / total_val_samples
-                        }, step=epoch)
+                        if use_wandb:
+                            wandb.log({
+                                'val_loss': total_val_loss / total_val_samples,
+                                'val_accuracy': val_correct / total_val_samples
+                            }, step=epoch)
 
     return model.to(DEVICE)
