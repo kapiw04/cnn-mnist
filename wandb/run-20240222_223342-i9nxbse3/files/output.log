@@ -1,4 +1,0 @@
-<class 'torch.Tensor'> torch.Size([28, 28])
-Epoch: 1/15, 750/750, ETA: 01m 24s
-Epoch 1/15, Loss: 1.3206, Accuracy: 0.5445
-Validation Loss: 0.2940, Validation Accuracy: 0.9115
