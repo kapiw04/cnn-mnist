@@ -54,4 +54,7 @@ model = create_cnn_model(l1_size=config["l1_size"],
 
 optimizer = torch.optim.SGD(model.parameters(), lr=LEARNING_RATE, momentum=MOMENTUM)
 
-trained_model = train_model(model, loss_fn, optimizer, train_grayscale, val_grayscale, use_wandb=use_wandb)
+if __name__ == "__main__":
+    trained_model = train_model(model, loss_fn, optimizer, train_grayscale, val_grayscale, use_wandb=use_wandb)
+
+    torch.save(trained_model.state_dict(), "mnist_cnn.pth")

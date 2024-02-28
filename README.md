@@ -35,3 +35,9 @@ Example:
 ```sh
 python3 cnn.py batch_size=32 dropout_rate=0.4
 ```
+
+## Preview of the model
+
+```sh
+python3 gui.py
+```
